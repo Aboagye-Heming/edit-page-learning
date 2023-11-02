@@ -17,11 +17,11 @@ const routes: Array<RouteRecordRaw> = [
     name: "Edit",
     component: () => import("../views/EditPage.vue"),
   },
-  {
-    path: "/edit/:id",
-    name: "Edit",
-    component: () => import("../views/EditPage.vue"),
-  },
+  // {
+  //   path: "/edit/:id",
+  //   name: "Edit",
+  //   component: () => import("../views/EditPage.vue"),
+  // },
 ];
 
 const router = createRouter({

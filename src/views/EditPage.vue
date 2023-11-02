@@ -3,7 +3,7 @@
     <ion-header :translucent="true">
       <ion-toolbar>
         <ion-title>Edit</ion-title>
-        <ion-buttons slot="end">
+        <ion-buttons>
           <ion-button @click="save"> Save </ion-button>
         </ion-buttons>
       </ion-toolbar>
@@ -37,7 +37,6 @@ import {
   useIonRouter,
 } from "@ionic/vue";
 import { defineComponent, ref } from "vue";
-import { useRoute } from "vue-router";
 import { Filesystem, Encoding, Directory } from "@capacitor/filesystem";
 import { QuillEditor } from "@vueup/vue-quill";
 import "@vueup/vue-quill/dist/vue-quill.snow.css";

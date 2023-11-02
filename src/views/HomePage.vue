@@ -84,7 +84,7 @@ export default defineComponent({
       await Filesystem.requestPermissions();
       initFilesystem();
     });
-    return {};
+    return { notes };
   },
 });
 </script>
