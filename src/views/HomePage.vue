@@ -35,7 +35,6 @@ import {
   IonButtons,
 } from "@ionic/vue";
 import { defineComponent, ref } from "vue";
-import { useRoute } from "vue-router";
 import { Filesystem, Directory, FileInfo } from "@capacitor/filesystem";
 
 export default defineComponent({
@@ -108,9 +107,7 @@ export default defineComponent({
 #container p {
   font-size: 16px;
   line-height: 22px;
-
   color: #8c8c8c;
-
   margin: 0;
 }
 
